@@ -1,0 +1,96 @@
+:root{
+    --color-home:#0264cd;
+    --color-about: #03ab2a;
+    --color-service:#eb6b03;
+    --color-team:#7e3bf9;
+    --color-portfold:#dc0218;
+    --color-contact:#d9a403;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    top: 20px;
+    left: 10%;
+    
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    width: 80%;
+    border-bottom: 5px double black;
+    padding-bottom: 30px;
+}
+
+
+nav>ul>li {
+    width: 12%;
+    list-style-type:none;
+    transition: 1s ease ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav>ul>li:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid ;
+    border-left-style: solid;
+    
+    
+    
+}
+
+.home:hover {
+    color:var(--color-home);
+    border-right-color: var(--color-home);
+    border-left-color: var(--color-home);
+
+
+}
+
+.about:hover {
+    color:var(--color-about);
+    border-right-color: var(--color-about);
+    border-left-color: var(--color-about);
+
+}
+
+.service:hover {
+    color:var(--color-service);
+    border-right-color: var(--color-service);
+    border-left-color: var(--color-service);
+
+
+}
+
+.team:hover {
+    color:var(--color-team);
+    border-right-color:var(--color-team) ;
+    border-left-color:var(--color-team);
+
+}
+
+.portfold:hover {
+    color:var(--color-portfold);
+    border-right-color: var(--color-portfold);
+    border-left-color: var(--color-portfold);
+
+}
+
+.contact:hover {
+    color:var(--color-contact);
+    border-right-color: var(--color-contact);
+    border-left-color: var(--color-contact);
+
+}
